@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="appMain">
+        <div class="searchInput">
+            <input type="text" id="inputBox" class="inputBox" placeholder="Enter city name ..." autocomplete="off">
+        </div>
+        <div class="weatherBody">
+            <div class="locationAndTime">
+                <div class="city" id="city">Nagpur, IN</div>
+                <div class="time" id="time">15 May(Sunday), 2022</div>
+            </div>
+            <div class="weatherstatus">
+                <div class="temperature" id="temperature">34&deg;C</div>
+                <div class="minMaxTemp" id="minMaxTemp">32&deg;C(min)/34&deg;C(max)</div>
+                <div class="weather" id="weather">Clear</div>
+                <div class="wind" id="wind">Wind Speed 5 m/sec </div>
+                <div class="image"></div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
